@@ -1,0 +1,25 @@
+{
+    "category": "plugins",
+    "display": "Gerar Hash MD5",
+    "fields": {
+        "AAD": {
+            "caption": "String para encriptar",
+            "doc": "Insira a string a qual deseja gerar o Hash MD5",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "string_to_hash",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "String encriptada",
+            "name": "string_encrypted",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

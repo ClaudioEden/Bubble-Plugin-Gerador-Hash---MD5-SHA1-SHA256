@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "demo_page": "https://usingplugin-gerador-hash.bubbleapps.io/version-test/",
+    "description": "Este plugin gera hash MD5, SHA1 ou SHA256 através do uso da criptografia.\n\nA criptografia hash é utilizada para resumir dados, verificar integridade de arquivos e garantir a segurança de senhas dentro de um servidor.\n\n----\n\nThis plugin generates MD5, SHA1 or SHA256 hash through the use of encryption.\n\nHash encryption is used to summarize data, verify file integrity, and secure passwords within a server.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1662413444304x804420866496147200/W3Tools%20-%20Gerar%20Hashlogo.png",
+    "license": "open_source",
+    "link": "https://usingplugin-gerador-hash.bubbleapps.io/version-test/",
+    "name": "Gerador Hash - MD5 SHA1 SHA256",
+    "plugin_instructions": "No workflow, clique em \"adicionar uma ação\" e dentre as opções no menu Plugins, escolha a que deseja utilizar: \n- Gerar Hash MD5\n- Gerar Hash SHA1\n- Gerar Hash SHA256\n\nSelecione o elemento que tem o valor a ser encriptado ou insira diretamente o valor no campo \"String para encriptar\". \n\nPara maior segurança, Hash SHA1 e SHA256 permite adicionar uma string \"Salt\". É opcional. \n\n----\n\nIn the workflow, click on \"add an action\" and among the options in the Plugins menu, choose the one you want to use:\n- Generate MD5 Hash\n- Generate SHA1 Hash\n- Generate SHA256 Hash\n\nSelect the element that has the value to be encrypted or directly enter the value in the \"String to encrypt\" field.\n\nFor added security, Hash SHA1 and SHA256 allows adding a string \"Salt\". It's optional."
+}

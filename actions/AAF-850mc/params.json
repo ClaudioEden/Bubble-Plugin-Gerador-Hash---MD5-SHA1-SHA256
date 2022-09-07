@@ -1,0 +1,40 @@
+{
+    "category": "plugins",
+    "display": "Gerar Hash SHA1",
+    "fields": {
+        "AAG": {
+            "caption": "String para encriptar",
+            "doc": "Insira a string a qual deseja gerar o Hash SHA1",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "string_to_hash",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "String Salt",
+            "doc": "String para adicionar à criptografia que é usado como uma entrada adicional para aumentar a proteção do Hash gerado",
+            "editor": "DynamicValue",
+            "name": "salt",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Para aumentar a segurança, você pode adicionar uma string que dificultará uma eventual tentativa de quebra de segurança do hash gerado.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAH": {
+            "caption": "String encriptada",
+            "name": "string_encrypted",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,41 @@
+{
+    "category": "plugins",
+    "display": "Gerar Hash SHA256",
+    "fields": {
+        "AAM": {
+            "caption": "String para encriptar",
+            "doc": "Insira a string a qual deseja gerar o Hash SHA256",
+            "editor": "DynamicValue",
+            "name": "string_to_hash",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "String Salt",
+            "doc": "String para adicionar à criptografia que é usado como uma entrada adicional para aumentar a proteção do Hash gerado",
+            "editor": "DynamicValue",
+            "name": "salt",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "Para aumentar a segurança, você pode adicionar uma string que dificultará uma eventual tentativa de quebra de segurança do hash gerado.",
+            "editor": "Label",
+            "name": "info",
+            "options": "",
+            "rank": 1,
+            "value": "_any_thing_bindable"
+        }
+    },
+    "return_value": {
+        "AAN": {
+            "caption": "String encriptada",
+            "name": "string_encrypted",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
